@@ -1,0 +1,1051 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Montserrat:wght@400;600;700&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="css/jquery.fancybox.min.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>listing-mak</title>
+</head>
+
+<body class="listing-mak">
+	<div class="wrapper">
+
+		<main class="content">
+			<header class="header">
+				<div class="header__container container">
+					<div class="header__body">
+						<a href="/" class="header__logo">
+							<img src="img/icons/logo-icon.svg" alt="logo">
+						</a>
+						<div class="header__burger">
+							<span></span>
+							<span></span>
+						</div>
+						<nav class="header__menu">
+							<ul class="header__list">
+								<li>
+									<a class="header__link" href="">послуги</a>
+								</li>
+								<li>
+									<a class="header__link" href="">репродукції</a>
+								</li>
+								<li>
+									<a class="header__link" href="">методика</a>
+								</li>
+								<li>
+									<a class="header__link" href="">про
+										мене</a>
+								</li>
+								<li>
+									<a class="header__link" href="">відгуки</a>
+								</li>
+								<li>
+									<a class="btn btn-enroll" href="">записатись</a>
+								</li>
+							</ul>
+							<div class="header__burger">
+								<span></span>
+								<span></span>
+							</div>
+							<ul class="header__social social">
+								<li class="social__item social__item--facebook"><a href="#">@veronica</a></li>
+								<li class="social__item social__item--twitter"><a href="#">@veronica</a></li>
+								<li class="social__item social__item--instagram"><a href="#">@veronica</a></li>
+							</ul>
+							<p class="header__copyright copyright">Copyright © 2023 veronika.com — Veronika art therapist. All
+								Rights
+								Reserved.</p>
+						</nav>
+						<div class="overlay"></div>
+					</div>
+				</div>
+			</header>
+
+			<section class="section-shop shop">
+				<div class="shop__slider shop-slick">
+					<div class="shop__item">
+						<div class="container">
+							<div class="shop__text-holder">
+								<h2 class="shop__title">Дівчинка у<br> якої</h2>
+								<p class="shop__text">Репродукція ресурсної метафоричної карти («Дєвочка у которой»)</p>
+							</div>
+							<div class="shop__buttons">
+								<a class="btn btn-buy" href="">Купити</a>
+								<a class="btn btn-look" href="">Дивитись</a>
+							</div>
+						</div>
+					</div>
+					<div class="shop__item">
+						<div class="container">
+							<div class="shop__text-holder">
+								<h2 class="shop__title">Розпускаючи<br>
+									коси</h2>
+								<p class="shop__text">Репродукція ресурсної метафоричної карти «Распуская косы»</p>
+							</div>
+							<div class="shop__buttons">
+								<a class="btn btn-buy" href="">Купити</a>
+								<a class="btn btn-look" href="">Дивитись</a>
+							</div>
+						</div>
+					</div>
+					<div class="shop__item">
+						<div class="container">
+							<div class="shop__text-holder">
+								<h2 class="shop__title">Афродіта</h2>
+								<p class="shop__text">Архитипічна картина</p>
+							</div>
+							<div class="shop__buttons">
+								<a class="btn btn-buy" href="">Купити</a>
+								<a class="btn btn-look" href="">Дивитись</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="slider-nav container">
+					<button class="slider-prev-shop">Previous</button>
+					<button class="slider-next-shop">Next</button>
+				</div>
+			</section>
+			<section class="section-tabs tabs">
+				<div class="tabs__body">
+					<h2>Мої Мак-картки</h2>
+					<div id="reproductions-slider" class="tabcontent">
+						<div class="reproductions-slider reproductions-slick">
+							<div class="reproductions-slider__item">
+								<div class="reproductions-slider__inner">
+									<div class="reproductions-slider__image-holder">
+										<img src="img/reproductions-slider-img-1.webp" alt="image">
+										<div class="badge-box">
+											НОВА РОБОТА
+										</div>
+									</div>
+									<div class="reproductions-slider__text-holder">
+										<h3 class="reproductions-slider__title">«Третє око»</h3>
+										<h4 class="reproductions-slider__price">50€</h4>
+										<div class="reproductions-slider__buttons">
+											<a class="btn btn-buy" href="">Замовити</a>
+											<a class="btn btn-look" href="">Дивитись</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="reproductions-slider__item">
+								<div class="reproductions-slider__inner">
+									<div class="reproductions-slider__image-holder">
+										<img src="img/reproductions-slider-img-2.webp" alt="image">
+										<div class="badge-box">
+											НОВА РОБОТА
+										</div>
+									</div>
+									<div class="reproductions-slider__text-holder">
+										<h3 class="reproductions-slider__title">«Живий рід»</h3>
+										<h4 class="reproductions-slider__price">50€</h4>
+										<div class="reproductions-slider__buttons">
+											<a class="btn btn-buy" href="#modal-buy-common-1">Замовити</a>
+											<a class="btn btn-look" href="#modal-buy-common-1">Дивитись</a>
+											<!-- <a class="btn btn-buy" data-fancybox data-src="#modal-buy-common-1"
+												href="javascript:;">Замовити</a>
+											<a class="btn btn-look" data-fancybox data-src="#modal-buy-common-1"
+												href="javascript:;">Дивитись</a> -->
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="reproductions-slider__item">
+								<div class="reproductions-slider__inner">
+									<div class="reproductions-slider__image-holder">
+										<img src="img/reproductions-slider-img-3.webp" alt="image">
+										<div class="badge-box">
+											НОВА РОБОТА
+										</div>
+									</div>
+									<div class="reproductions-slider__text-holder">
+										<h3 class="reproductions-slider__title">«Грошова»</h3>
+										<h4 class="reproductions-slider__price">70€</h4>
+										<div class="reproductions-slider__buttons">
+											<a class="btn btn-buy" href="#modal-buy-common-2">Замовити</a>
+											<a class="btn btn-look" href="#modal-buy-common-2">Дивитись</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="reproductions-slider__item">
+								<div class="reproductions-slider__inner">
+									<div class="reproductions-slider__image-holder">
+										<img src="img/reproductions-slider-img-4.webp" alt="image">
+										<div class="badge-box">
+											АКЦІЯ
+										</div>
+									</div>
+									<div class="reproductions-slider__text-holder">
+										<h3 class="reproductions-slider__title">«Розпускаючи коси»</h3>
+										<h4 class="reproductions-slider__price">100€</h4>
+										<div class="reproductions-slider__buttons">
+											<a class="btn btn-buy" href="">Замовити</a>
+											<a class="btn btn-look" href="">Дивитись</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="reproductions-slider__item">
+								<div class="reproductions-slider__inner">
+									<div class="reproductions-slider__image-holder">
+										<img src="img/reproductions-slider-img-5.webp" alt="image">
+										<div class="badge-box">
+											НОВА РОБОТА
+										</div>
+									</div>
+									<div class="reproductions-slider__text-holder">
+										<h3 class="reproductions-slider__title">«Афродіта»</h3>
+										<h4 class="reproductions-slider__price">150€</h4>
+										<div class="reproductions-slider__buttons">
+											<a class="btn btn-buy" href="">Замовити</a>
+											<a class="btn btn-look" href="">Дивитись</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="reproductions-slider__item">
+								<div class="reproductions-slider__inner">
+									<div class="reproductions-slider__image-holder">
+										<img src="img/reproductions-slider-img-6.webp" alt="image">
+										<div class="badge-box">
+											НОВА РОБОТА
+										</div>
+									</div>
+									<div class="reproductions-slider__text-holder">
+										<h3 class="reproductions-slider__title">«Зевс»</h3>
+										<h4 class="reproductions-slider__price">150€</h4>
+										<div class="reproductions-slider__buttons">
+											<a class="btn btn-buy" href="">Замовити</a>
+											<a class="btn btn-look" href="">Дивитись</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="reproductions-slider__item">
+								<div class="reproductions-slider__inner">
+									<div class="reproductions-slider__image-holder">
+										<img src="img/reproductions-slider-img-7.webp" alt="image">
+										<div class="badge-box">
+											НОВА РОБОТА
+										</div>
+									</div>
+									<div class="reproductions-slider__text-holder">
+										<h3 class="reproductions-slider__title">«Живий рід»</h3>
+										<h4 class="reproductions-slider__price">70€</h4>
+										<div class="reproductions-slider__buttons">
+											<a class="btn btn-buy" href="">Замовити</a>
+											<a class="btn btn-look" href="">Дивитись</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="reproductions-slider__item">
+								<div class="reproductions-slider__inner">
+									<div class="reproductions-slider__image-holder">
+										<img src="img/reproductions-slider-img-8.webp" alt="image">
+										<div class="badge-box">
+											НОВА РОБОТА
+										</div>
+									</div>
+									<div class="reproductions-slider__text-holder">
+										<h3 class="reproductions-slider__title">Репродукція ресурсної метафоричної карти</h3>
+										<h4 class="reproductions-slider__price">70€</h4>
+										<div class="reproductions-slider__buttons">
+											<a class="btn btn-buy" href="">Замовити</a>
+											<a class="btn btn-look" href="">Дивитись</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="reproductions-slider__item">
+								<div class="reproductions-slider__inner">
+									<div class="reproductions-slider__image-holder">
+										<img src="img/reproductions-slider-img-9.webp" alt="image">
+										<div class="badge-box">
+											НОВА РОБОТА
+										</div>
+									</div>
+									<div class="reproductions-slider__text-holder">
+										<h3 class="reproductions-slider__title">«Дівчинка у якої»</h3>
+										<h4 class="reproductions-slider__price">60€</h4>
+										<div class="reproductions-slider__buttons">
+											<a class="btn btn-buy" href="">Замовити</a>
+											<a class="btn btn-look" href="">Дивитись</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="reproductions-slider__item">
+								<div class="reproductions-slider__inner">
+									<div class="reproductions-slider__image-holder">
+										<img src="img/reproductions-slider-img-10.webp" alt="image">
+										<div class="badge-box">
+											НОВА РОБОТА
+										</div>
+									</div>
+									<div class="reproductions-slider__text-holder">
+										<h3 class="reproductions-slider__title">«У пошуках сенсу»</h3>
+										<h4 class="reproductions-slider__price">60€</h4>
+										<div class="reproductions-slider__buttons">
+											<a class="btn btn-buy" href="">Замовити</a>
+											<a class="btn btn-look" href="">Дивитись</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="reproductions-slider__item">
+								<div class="reproductions-slider__inner">
+									<div class="reproductions-slider__image-holder">
+										<img src="img/reproductions-slider-img-11.webp" alt="image">
+										<div class="badge-box">
+											НОВА РОБОТА
+										</div>
+									</div>
+									<div class="reproductions-slider__text-holder">
+										<h3 class="reproductions-slider__title">«Оголені почуття»</h3>
+										<h4 class="reproductions-slider__price">70€</h4>
+										<div class="reproductions-slider__buttons">
+											<a class="btn btn-buy" href="">Замовити</a>
+											<a class="btn btn-look" href="">Дивитись</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="reproductions-slider__item">
+								<div class="reproductions-slider__inner">
+									<div class="reproductions-slider__image-holder">
+										<img src="img/reproductions-slider-img-12.webp" alt="image">
+										<div class="badge-box">
+											НОВА РОБОТА
+										</div>
+									</div>
+									<div class="reproductions-slider__text-holder">
+										<h3 class="reproductions-slider__title">Репродукція ресурсної метафоричної карти</h3>
+										<h4 class="reproductions-slider__price">80€</h4>
+										<div class="reproductions-slider__buttons">
+											<a class="btn btn-buy" href="">Замовити</a>
+											<a class="btn btn-look" href="">Дивитись</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="reproductions-slider__item">
+								<div class="reproductions-slider__inner">
+									<div class="reproductions-slider__image-holder">
+										<img src="img/reproductions-slider-img-13.webp" alt="image">
+										<div class="badge-box">
+											НОВА РОБОТА
+										</div>
+									</div>
+									<div class="reproductions-slider__text-holder">
+										<h3 class="reproductions-slider__title">Репродукція ресурсної метафоричної карти</h3>
+										<h4 class="reproductions-slider__price">50€</h4>
+										<div class="reproductions-slider__buttons">
+											<a class="btn btn-buy" href="">Замовити</a>
+											<a class="btn btn-look" href="">Дивитись</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="reproductions-slider__item">
+								<div class="reproductions-slider__inner">
+									<div class="reproductions-slider__image-holder">
+										<img src="img/reproductions-slider-img-14.webp" alt="image">
+
+										<div class="badge-box">
+											НОВА РОБОТА
+										</div>
+									</div>
+									<div class="reproductions-slider__text-holder">
+										<h3 class="reproductions-slider__title">«Оголені почуття»</h3>
+										<h4 class="reproductions-slider__price">50€</h4>
+										<div class="reproductions-slider__buttons">
+											<a class="btn btn-buy" href="">Замовити</a>
+											<a class="btn btn-look" href="">Дивитись</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="slider-nav container">
+							<button class="slider-prev">Previous</button>
+							<button class="slider-next">Next</button>
+						</div>
+						<div class="reproductions__footer">
+							<a class="btn btn-look" href="">Дивитись все</a>
+						</div>
+					</div>
+					<div id="mak-slider" class="tabcontent">
+						<div class="mak-slider mak-slick">
+							<div class="mak-slider__item">
+								<div class="mak-slider__inner">
+									<div class="mak-slider__image-holder">
+										<img src="img/mak-slider-img-1.webp" alt="image">
+
+									</div>
+									<div class="mak-slider__text-holder">
+										<h3 class="mak-slider__title">В пошуках сенсу</h3>
+										<h4 class="mak-slider__price">100€</h4>
+										<div class="mak-slider__buttons">
+											<a class="btn btn-buy" href="">Замовити</a>
+											<a class="btn btn-look" href="">Дивитись</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="mak-slider__item">
+								<div class="mak-slider__inner">
+									<div class="mak-slider__image-holder">
+										<img src="img/mak-slider-img-2.webp" alt="image">
+
+									</div>
+									<div class="mak-slider__text-holder">
+										<h3 class="mak-slider__title">Я і гроші</h3>
+										<h4 class="mak-slider__price">100€</h4>
+
+										<div class="mak-slider__buttons">
+											<a class="btn btn-buy" href="">Замовити</a>
+											<a class="btn btn-look" href="">Дивитись</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="mak-slider__item">
+								<div class="mak-slider__inner">
+									<div class="mak-slider__image-holder">
+										<img src="img/mak-slider-img-3.webp" alt="image">
+
+									</div>
+									<div class="mak-slider__text-holder">
+										<h3 class="mak-slider__title">Горщик Золота</h3>
+										<h4 class="mak-slider__price">100€</h4>
+
+										<div class="mak-slider__buttons">
+											<a class="btn btn-buy" href="">Замовити</a>
+											<a class="btn btn-look" href="">Дивитись</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="mak-slider__item">
+								<div class="mak-slider__inner">
+									<div class="mak-slider__image-holder">
+										<img src="img/mak-slider-img-4.webp" alt="image">
+
+									</div>
+									<div class="mak-slider__text-holder">
+										<h3 class="mak-slider__title">Коб</h3>
+										<h4 class="mak-slider__price">100€</h4>
+
+										<div class="mak-slider__buttons">
+											<a class="btn btn-buy" href="">Замовити</a>
+											<a class="btn btn-look" href="">Дивитись</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="mak-slider__item">
+								<div class="mak-slider__inner">
+									<div class="mak-slider__image-holder">
+										<img src="img/mak-slider-img-5.webp" alt="image">
+
+									</div>
+									<div class="mak-slider__text-holder">
+										<h3 class="mak-slider__title">Внутрішні дракони</h3>
+										<h4 class="mak-slider__price">100€</h4>
+
+										<div class="mak-slider__buttons">
+											<a class="btn btn-buy" href="">Замовити</a>
+											<a class="btn btn-look" href="">Дивитись</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="mak-slider__item">
+								<div class="mak-slider__inner">
+									<div class="mak-slider__image-holder">
+										<img src="img/mak-slider-img-6.webp" alt="image">
+
+									</div>
+									<div class="mak-slider__text-holder">
+										<h3 class="mak-slider__title">Оголені почуття</h3>
+										<h4 class="mak-slider__price">100€</h4>
+
+										<div class="mak-slider__buttons">
+											<a class="btn btn-buy" href="">Замовити</a>
+											<a class="btn btn-look" href="">Дивитись</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="mak-slider__item">
+								<div class="mak-slider__inner">
+									<div class="mak-slider__image-holder">
+										<img src="img/mak-slider-img-7.webp" alt="image">
+
+									</div>
+									<div class="mak-slider__text-holder">
+										<h3 class="mak-slider__title">Химера</h3>
+										<h4 class="mak-slider__price">100€</h4>
+
+										<div class="mak-slider__buttons">
+											<a class="btn btn-buy" href="">Замовити</a>
+											<a class="btn btn-look" href="">Дивитись</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="mak-slider__item">
+								<div class="mak-slider__inner">
+									<div class="mak-slider__image-holder">
+										<img src="img/mak-slider-img-8.webp" alt="image">
+
+									</div>
+									<div class="mak-slider__text-holder">
+										<h3 class="mak-slider__title">Я приймаю рішення</h3>
+										<h4 class="mak-slider__price">100€</h4>
+
+										<div class="mak-slider__buttons">
+											<a class="btn btn-buy" href="">Замовити</a>
+											<a class="btn btn-look" href="">Дивитись</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="mak-slider__item">
+								<div class="mak-slider__inner">
+									<div class="mak-slider__image-holder">
+										<img src="img/mak-slider-img-9.webp" alt="image">
+
+									</div>
+									<div class="mak-slider__text-holder">
+										<h3 class="mak-slider__title">Третє око</h3>
+										<h4 class="mak-slider__price">100€</h4>
+
+										<div class="mak-slider__buttons">
+											<a class="btn btn-buy" href="">Замовити</a>
+											<a class="btn btn-look" href="">Дивитись</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="mak-slider__item">
+								<div class="mak-slider__inner">
+									<div class="mak-slider__image-holder">
+										<img src="img/mak-slider-img-10.webp" alt="image">
+
+									</div>
+									<div class="mak-slider__text-holder">
+										<h3 class="mak-slider__title">Любов очима художника</h3>
+										<h4 class="mak-slider__price">100€</h4>
+
+										<div class="mak-slider__buttons">
+											<a class="btn btn-buy" href="">Замовити</a>
+											<a class="btn btn-look" href="">Дивитись</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="mak-slider__item">
+								<div class="mak-slider__inner">
+									<div class="mak-slider__image-holder">
+										<img src="img/mak-slider-img-11.webp" alt="image">
+
+									</div>
+									<div class="mak-slider__text-holder">
+										<h3 class="mak-slider__title">Ох</h3>
+										<h4 class="mak-slider__price">100€</h4>
+
+										<div class="mak-slider__buttons">
+											<a class="btn btn-buy" href="">Замовити</a>
+											<a class="btn btn-look" href="">Дивитись</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="mak-slider__item">
+								<div class="mak-slider__inner">
+									<div class="mak-slider__image-holder">
+										<img src="img/mak-slider-img-12.webp" alt="image">
+										<div class="badge-box">
+											НОВА РОБОТА
+										</div>
+									</div>
+									<div class="mak-slider__text-holder">
+										<h3 class="mak-slider__title">Сила роду</h3>
+										<h4 class="mak-slider__price">100€</h4>
+
+										<div class="mak-slider__buttons">
+											<a class="btn btn-buy" href="">Замовити</a>
+											<a class="btn btn-look" href="">Дивитись</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="slider-navs container">
+							<button class="slider-prevs">Previous</button>
+							<button class="slider-nexts">Next</button>
+						</div>
+						<div class="mak__footer">
+							<a class="btn btn-look" href="">Дивитись все</a>
+						</div>
+					</div>
+			</section>
+
+		</main>
+
+		<footer class="footer">
+			<div class="footer__container container">
+				<div class="footer__body">
+					<div class="footer__row">
+						<div class="footer__left-column">
+							<a href="#" class="footer__logo logo">
+								<svg width="202" height="62" viewBox="0 0 202 62" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M87.6425 59.2759C86.9414 59.2759 86.3071 59.1309 85.7396 58.8409C85.172 58.5397 84.7102 57.9597 84.3541 57.1009L83.9701 56.1639H79.5299L78.1611 59.209H77.2931L82.2174 48.1665H82.9686L86.7077 57.1009C87.1306 58.1382 87.7093 58.6959 88.4437 58.774V59.1922C88.2434 59.248 87.9764 59.2759 87.6425 59.2759ZM79.8805 55.411H83.653L81.8168 51.0442L79.8805 55.411Z"
+										fill="#FF0044" />
+									<path
+										d="M89.7201 50.3415C89.7201 49.7727 89.6422 49.3544 89.4864 49.0867C89.3306 48.8078 89.019 48.6684 88.5516 48.6684H88.3847V48.1665H92.9751C94.1213 48.1665 95.1563 48.3951 96.0799 48.8525C97.0147 49.2986 97.4821 50.1909 97.4821 51.5294C97.4821 52.3994 97.2373 53.0743 96.7476 53.5539C96.2691 54.0335 95.7294 54.3514 95.1285 54.5075C94.5275 54.6637 93.9767 54.7418 93.4759 54.7418H91.8901V59.209H89.7201V50.3415ZM92.8917 54.0725C93.5482 54.0725 94.088 53.8718 94.5108 53.4702C94.9337 53.0687 95.1451 52.3939 95.1451 51.4458C95.1451 50.5088 94.9337 49.8396 94.5108 49.438C94.0991 49.0365 93.5872 48.8357 92.9751 48.8357C92.6524 48.8357 92.402 48.858 92.224 48.9027L91.8901 48.9528V54.0725H92.8917Z"
+										fill="#FF0044" />
+									<path
+										d="M101.694 48.9194H100.509C99.8855 48.9194 99.407 49.0755 99.0731 49.3879C98.7504 49.7002 98.589 50.2132 98.589 50.9271H98.0883V49.505C98.0883 48.6126 98.5612 48.1665 99.5071 48.1665H107.353V48.9194H103.864V59.209H101.694V48.9194Z"
+										fill="#FF0044" />
+									<path
+										d="M124.091 48.9194H122.906C122.282 48.9194 121.804 49.0755 121.47 49.3879C121.147 49.7002 120.986 50.2132 120.986 50.9271H120.485V49.505C120.485 48.6126 120.958 48.1665 121.904 48.1665H129.75V48.9194H126.261V59.209H124.091V48.9194Z"
+										fill="#F6F5FF" />
+									<path
+										d="M131.572 50.3415C131.572 49.7727 131.494 49.3544 131.339 49.0867C131.183 48.8078 130.871 48.6684 130.404 48.6684H130.237V48.1665H137.598C138.544 48.1665 139.017 48.6126 139.017 49.505V50.9271H138.516C138.516 50.2356 138.338 49.7281 137.982 49.4046C137.637 49.0811 137.12 48.9194 136.43 48.9194H133.742V53.1021H138.082V53.855H133.742V58.4561H136.597C137.231 58.4561 137.76 58.3166 138.183 58.0378C138.605 57.7478 138.956 57.2514 139.234 56.5487L139.685 56.716L139.201 58.0378C139.056 58.4393 138.884 58.7349 138.683 58.9245C138.483 59.1142 138.171 59.209 137.749 59.209H131.572V50.3415Z"
+										fill="#F6F5FF" />
+									<path
+										d="M141.748 50.3415C141.748 49.7727 141.67 49.3544 141.515 49.0867C141.359 48.8078 141.047 48.6684 140.58 48.6684H140.413V48.1665H145.003C146.15 48.1665 147.185 48.3951 148.108 48.8525C149.043 49.2986 149.51 50.1909 149.51 51.5294C149.51 52.3994 149.266 53.0743 148.776 53.5539C148.297 54.0335 147.758 54.3514 147.157 54.5075C146.556 54.6637 146.005 54.7418 145.504 54.7418H143.918V59.209H141.748V50.3415ZM144.92 54.0725C145.576 54.0725 146.116 53.8718 146.539 53.4702C146.962 53.0687 147.173 52.3939 147.173 51.4458C147.173 50.5088 146.962 49.8396 146.539 49.438C146.127 49.0365 145.615 48.8357 145.003 48.8357C144.681 48.8357 144.43 48.858 144.252 48.9027L143.918 48.9528V54.0725H144.92Z"
+										fill="#F6F5FF" />
+									<path
+										d="M159.371 59.2759C158.669 59.2759 158.035 59.1309 157.468 58.8409C156.9 58.5397 156.438 57.9597 156.082 57.1009L155.698 56.1639H151.258L149.889 59.209H149.021L153.945 48.1665H154.697L158.436 57.1009C158.859 58.1382 159.437 58.6959 160.172 58.774V59.1922C159.971 59.248 159.704 59.2759 159.371 59.2759ZM151.609 55.411H155.381L153.545 51.0442L151.609 55.411Z"
+										fill="#F6F5FF" />
+									<path
+										d="M161.448 50.3415C161.448 49.7727 161.37 49.3544 161.214 49.0867C161.059 48.8078 160.747 48.6684 160.28 48.6684H160.113V48.1665H170.128V59.209H167.958V48.9194H163.618V59.209H161.448V50.3415Z"
+										fill="#F6F5FF" />
+									<path
+										d="M173.124 50.3415C173.124 49.7727 173.046 49.3544 172.89 49.0867C172.734 48.8078 172.423 48.6684 171.955 48.6684H171.788V48.1665H179.15C180.096 48.1665 180.569 48.6126 180.569 49.505V50.9271H180.068C180.068 50.2356 179.89 49.7281 179.534 49.4046C179.189 49.0811 178.671 48.9194 177.981 48.9194H175.294V53.1021H179.634V53.855H175.294V58.4561H178.148C178.783 58.4561 179.311 58.3166 179.734 58.0378C180.157 57.7478 180.507 57.2514 180.786 56.5487L181.236 56.716L180.752 58.0378C180.608 58.4393 180.435 58.7349 180.235 58.9245C180.034 59.1142 179.723 59.209 179.3 59.209H173.124V50.3415Z"
+										fill="#F6F5FF" />
+									<path
+										d="M183.3 50.3415C183.3 49.7727 183.222 49.3544 183.066 49.0867C182.91 48.8078 182.599 48.6684 182.131 48.6684H181.964V48.1665H186.471C187.873 48.1665 189.042 48.3617 189.977 48.7521C190.923 49.1425 191.396 49.9232 191.396 51.0944C191.396 51.6075 191.19 52.0927 190.778 52.55C190.377 52.9962 189.81 53.3141 189.075 53.5037C190.956 53.6933 191.896 54.5745 191.896 56.1472C191.896 57.3072 191.435 58.1103 190.511 58.5564C189.587 58.9915 188.408 59.209 186.972 59.209H183.3V50.3415ZM186.722 53.1691C187.445 53.1691 188.013 53.0018 188.424 52.6671C188.847 52.3214 189.059 51.7692 189.059 51.0108C189.059 50.2411 188.808 49.689 188.307 49.3544C187.818 49.0086 187.206 48.8357 186.471 48.8357C186.171 48.8357 185.937 48.858 185.77 48.9027L185.47 48.9528V53.1691H186.722ZM186.722 58.5397C187.645 58.5397 188.346 58.3389 188.825 57.9374C189.315 57.5359 189.559 56.967 189.559 56.2308C189.559 54.6916 188.613 53.922 186.722 53.922H185.47V58.3724C185.592 58.417 185.703 58.4449 185.804 58.4561C186.048 58.5118 186.327 58.5397 186.638 58.5397H186.722Z"
+										fill="#F6F5FF" />
+									<path
+										d="M196.284 48.9194H195.099C194.476 48.9194 193.997 49.0755 193.663 49.3879C193.341 49.7002 193.179 50.2132 193.179 50.9271H192.679V49.505C192.679 48.6126 193.152 48.1665 194.097 48.1665H201.943V48.9194H198.454V59.209H196.284V48.9194Z"
+										fill="#F6F5FF" />
+									<path
+										d="M5.38391 9.36037C4.63111 7.55604 3.87831 6.27661 3.12551 5.52207C2.40544 4.76754 1.53808 4.32466 0.523438 4.19344V3.20926L2.58546 3.11084C4.74567 3.11084 6.64404 3.52091 8.28056 4.34106C9.91708 5.16121 11.259 6.83431 12.3064 9.36037L20.0635 27.7645L30.4227 3.60293H32.9266L18.787 36.5729H16.8232L5.38391 9.36037Z"
+										fill="#F6F5FF" />
+									<path
+										d="M44.3414 36.5729C42.083 36.5729 40.1028 36.048 38.4008 34.9982C36.6988 33.9484 35.3732 32.5213 34.424 30.717C33.5076 28.8799 33.0493 26.8131 33.0493 24.5167C33.0493 21.9578 33.5076 19.7762 34.424 17.9719C35.3732 16.1676 36.6661 14.8061 38.3026 13.8876C39.9391 12.9362 41.7884 12.4605 43.8504 12.4605C45.8797 12.4605 47.7126 12.8706 49.3491 13.6907C50.9856 14.5109 52.2785 15.6755 53.2277 17.1846C54.1769 18.6608 54.6515 20.3668 54.6515 22.3023C54.6515 22.9256 54.6187 23.6309 54.5533 24.4183L54.4551 25.4025H39.6773C39.6773 28.519 40.1519 30.799 41.101 32.2425C42.0502 33.6532 43.3758 34.3585 45.0778 34.3585C46.6489 34.3585 47.9581 34.014 49.0055 33.3251C50.0856 32.6034 51.1166 31.5864 52.0985 30.2741L53.6204 31.4059C52.6713 32.8822 51.4766 34.1124 50.0365 35.0966C48.6291 36.0808 46.7307 36.5729 44.3414 36.5729ZM48.0235 23.1881C48.0235 20.1043 47.6635 17.9227 46.9434 16.6433C46.2234 15.331 45.1924 14.6749 43.8504 14.6749C42.6066 14.6749 41.592 15.3474 40.8065 16.6925C40.0537 18.0047 39.6773 20.1699 39.6773 23.1881H48.0235Z"
+										fill="#F6F5FF" />
+									<path
+										d="M76.3905 13.4447C76.9797 13.8712 77.4052 14.3469 77.667 14.8718C77.9288 15.3639 78.0598 15.6263 78.0598 15.6591L75.5559 17.5782C75.3268 17.283 75.0322 16.9713 74.6722 16.6433C73.9521 15.9872 73.1175 15.6591 72.1683 15.6591C70.2699 15.6591 68.8134 16.1676 67.7988 17.1846L67.8969 17.9227C67.9624 18.5132 67.9951 19.0545 67.9951 19.5466V36.0808H61.6127V19.3498C61.6127 17.6767 61.3836 16.4464 60.9254 15.6591C60.4999 14.839 59.5998 14.4289 58.2251 14.4289H57.7341V12.9526H62.5946C63.7074 12.9526 64.5748 13.1002 65.1967 13.3955C65.8513 13.6579 66.3586 14.1172 66.7186 14.7733C68.4861 13.2315 70.5481 12.4605 72.9047 12.4605C74.3121 12.4605 75.474 12.7886 76.3905 13.4447Z"
+										fill="#F6F5FF" />
+									<path
+										d="M93.2288 36.5729C90.8395 36.5729 88.7447 36.048 86.9445 34.9982C85.1771 33.9156 83.8188 32.4721 82.8696 30.6678C81.9204 28.8307 81.4458 26.7803 81.4458 24.5167C81.4458 22.2531 81.9204 20.2191 82.8696 18.4148C83.8188 16.5777 85.1771 15.1342 86.9445 14.0844C88.7447 13.0018 90.8395 12.4605 93.2288 12.4605C95.6181 12.4605 97.6965 13.0018 99.464 14.0844C101.264 15.1342 102.639 16.5777 103.588 18.4148C104.537 20.2191 105.012 22.2531 105.012 24.5167C105.012 26.7803 104.537 28.8307 103.588 30.6678C102.639 32.4721 101.264 33.9156 99.464 34.9982C97.6965 36.048 95.6181 36.5729 93.2288 36.5729ZM93.2288 34.3585C94.8981 34.3585 96.1745 33.4563 97.0583 31.652C97.942 29.8477 98.3838 27.4692 98.3838 24.5167C98.3838 21.5642 97.942 19.1857 97.0583 17.3814C96.1745 15.5771 94.8981 14.6749 93.2288 14.6749C91.5595 14.6749 90.2831 15.5771 89.3993 17.3814C88.5156 19.1857 88.0737 21.5642 88.0737 24.5167C88.0737 27.4692 88.5156 29.8477 89.3993 31.652C90.2831 33.4563 91.5595 34.3585 93.2288 34.3585Z"
+										fill="#FF0044" />
+									<path
+										d="M112.168 19.3498C112.168 17.6767 111.939 16.4464 111.481 15.6591C111.055 14.839 110.155 14.4289 108.78 14.4289H108.289V12.9526H113.15C114.263 12.9526 115.13 13.1002 115.752 13.3955C116.406 13.6579 116.914 14.1172 117.274 14.7733C118.943 13.2315 121.332 12.4605 124.442 12.4605C127.551 12.4605 129.875 13.1987 131.413 14.6749C132.984 16.1184 133.77 18.3984 133.77 21.515V36.0808H127.388V21.4657C127.388 19.2021 126.962 17.5454 126.111 16.4957C125.293 15.4459 124.164 14.921 122.723 14.921C121.709 14.921 120.809 15.0686 120.023 15.3638C119.27 15.6263 118.665 15.9872 118.207 16.4464L118.354 17.1354C118.485 17.529 118.55 18.1688 118.55 19.0545V36.0808H112.168V19.3498Z"
+										fill="#F6F5FF" />
+									<path
+										d="M145.022 10.2953C143.844 10.2953 142.928 9.93447 142.273 9.21274C141.651 8.49101 141.34 7.60525 141.34 6.55546C141.34 5.70251 141.586 5.02998 142.077 4.5379C142.6 4.04581 143.255 3.79976 144.041 3.79976C145.219 3.79976 146.119 4.16063 146.741 4.88236C147.395 5.60409 147.723 6.48985 147.723 7.53964C147.723 8.39259 147.461 9.06511 146.937 9.5572C146.446 10.0493 145.808 10.2953 145.022 10.2953ZM141.831 19.3498C141.831 17.6767 141.602 16.4464 141.144 15.6591C140.686 14.839 139.769 14.4289 138.395 14.4289H137.904V12.9526H143.795C144.973 12.9526 145.873 13.1495 146.495 13.5431C147.117 13.9368 147.559 14.5929 147.821 15.5115C148.083 16.3972 148.214 17.6767 148.214 19.3498V36.0808H141.831V19.3498Z"
+										fill="#F6F5FF" />
+									<path
+										d="M166.065 36.5729C163.545 36.5729 161.401 36.0316 159.633 34.949C157.866 33.8664 156.524 32.4229 155.608 30.6186C154.724 28.7815 154.282 26.7475 154.282 24.5167C154.282 22.2859 154.724 20.2683 155.608 18.464C156.524 16.6269 157.866 15.167 159.633 14.0844C161.401 13.0018 163.545 12.4605 166.065 12.4605C169.993 12.4605 172.529 13.0346 173.675 14.1828C174.231 14.7405 174.575 15.4787 174.706 16.3972C174.837 17.3158 174.902 18.8741 174.902 21.0721H173.429C173.298 19.0053 172.66 17.4306 171.515 16.348C170.369 15.2326 168.798 14.6749 166.801 14.6749C165.001 14.6749 163.561 15.5115 162.481 17.1846C161.434 18.8249 160.91 21.2689 160.91 24.5167C160.91 31.0779 162.956 34.3585 167.047 34.3585C168.618 34.3585 169.927 34.014 170.975 33.3251C172.055 32.6034 173.086 31.5864 174.068 30.2741L175.59 31.4059C174.64 32.8822 173.446 34.1124 172.006 35.0966C170.565 36.0808 168.585 36.5729 166.065 36.5729Z"
+										fill="#F6F5FF" />
+									<path
+										d="M188.114 36.5729C185.462 36.5729 183.4 35.9824 181.927 34.8014C180.487 33.5875 179.767 31.9636 179.767 29.9297C179.767 28.2894 180.144 26.9279 180.896 25.8453C181.682 24.7627 183.04 23.9426 184.971 23.3849C186.903 22.8272 189.586 22.5483 193.023 22.5483H193.76C193.76 19.6942 193.367 17.6767 192.581 16.4957C191.796 15.2818 190.634 14.6749 189.095 14.6749C187.819 14.6749 186.772 14.9866 185.953 15.6099C185.135 16.2332 184.546 17.3978 184.186 19.1037H181.486C181.486 17.9883 181.551 17.037 181.682 16.2496C181.846 15.4623 182.189 14.7733 182.713 14.1828C183.728 13.0346 186.182 12.4605 190.077 12.4605C193.35 12.4605 195.838 13.3299 197.54 15.0686C199.275 16.7745 200.142 19.3498 200.142 22.7944V36.0808H195.969L194.251 33.8664H194.005C193.71 34.3257 193.252 34.785 192.63 35.2442C191.518 36.13 190.012 36.5729 188.114 36.5729ZM189.586 34.1124C190.274 34.1124 190.863 33.9812 191.354 33.7188C191.845 33.4235 192.319 33.0298 192.778 32.5378C193.203 32.0785 193.53 31.5372 193.76 30.9139V24.7627H193.023C190.699 24.7627 189.014 25.1892 187.966 26.0422C186.919 26.8623 186.395 28.1582 186.395 29.9297C186.395 31.2747 186.673 32.3081 187.23 33.0298C187.786 33.7516 188.572 34.1124 189.586 34.1124Z"
+										fill="#F6F5FF" />
+									<path
+										d="M105.123 7.7062C105.123 9.52438 103.653 10.9983 101.839 10.9983C100.025 10.9983 98.5543 9.52438 98.5543 7.7062C98.5543 5.88803 100.025 4.41411 101.839 4.41411C103.653 4.41411 105.123 5.88803 105.123 7.7062Z"
+										fill="#FF0044" />
+									<path
+										d="M116.702 53.796C116.702 55.6142 115.231 57.0881 113.417 57.0881C111.603 57.0881 110.133 55.6142 110.133 53.796C110.133 51.9778 111.603 50.5039 113.417 50.5039C115.231 50.5039 116.702 51.9778 116.702 53.796Z"
+										fill="#FF0044" />
+								</svg>
+							</a>
+							<ul class="footer__list list">
+								<li class="list__item"><a href="#">головна</a></li>
+								<li class="list__item"><a href="#">про мене</a></li>
+								<li class="list__item"><a href="#">методіка</a></li>
+								<li class="list__item"><a href="#">контакти</a></li>
+							</ul>
+							<ul class="footer__social social">
+								<li class="social__item social__item--facebook"><a href="#">@veronica</a></li>
+								<li class="social__item social__item--twitter"><a href="#">@veronica</a></li>
+								<li class="social__item social__item--instagram"><a href="#">@veronica</a></li>
+							</ul>
+							<p class="footer__copyright">Copyright © 2023 veronika.com — Veronika art therapist. All Rights
+								Reserved.</p>
+						</div>
+						<div class="footer__right-column">
+							<p class="footer__text">Якщо ви маєте запитання, залиште мені свій номер телефону і ми обговоримо
+								всі деталі</p>
+							<form class="footer__form" action="">
+								<div class="footer__input-phone">
+									<input type="tel" class="input" id="phone" name="phone" placeholder="Телефон" required>
+								</div>
+								<button class="btn btn-submit" type="submit">відправити</button>
+							</form>
+						</div>
+					</div>
+					<div class="footer__bottom">
+						<ul class="footer__social social">
+							<li class="social__item social__item--facebook"><a href="#">@veronica</a></li>
+							<li class="social__item social__item--twitter"><a href="#">@veronica</a></li>
+							<li class="social__item social__item--instagram"><a href="#">@veronica</a></li>
+						</ul>
+						<p class="footer__copyright">Copyright © 2023 veronika.com — Veronika art therapist. All Rights
+							Reserved.</p>
+					</div>
+				</div>
+			</div>
+
+
+
+			<!-- <div class="cards">
+				<div class="cards__item">
+					<div class="cards__image-holder">
+						<img src="img/Photo.png" alt="Card image">
+					</div>
+					<div class="cards__text-holder">
+						<div class="icon">
+							<img src="img/icons/pointer-icon.svg" alt="icon">
+						</div>
+						<h3>«Афродіта»</h3>
+						<h3>150€</h3>
+					</div>
+				</div>
+			</div> -->
+
+
+
+			<a class="developed-by" href="#">
+				<img src="img/icons/shapoval-agency-icon.svg" width="109" height="53" alt="shapoval agency">
+			</a>
+		</footer>
+		<div class="cookie-block">
+			<p>Ми використовуємо файли cookie для кращого обслуговування.</p>
+			<a class="btn btn-accept" href="">прийняти</a>
+		</div>
+	</div>
+
+
+	<div style="display: none;" id="modal-consultation">
+		<div class="modal-consultation">
+			<div class="modal-consultation__form">
+				<h2>Консультація</h2>
+				<h3>арт-терапевта</h3>
+
+				<form class="modal-consultation-form" action="">
+					<div class="modal-consultation-form__input modal-consultation-form__input--name">
+						<input type="text" class="input" id="name" name="name" placeholder="Ваше ім'я">
+					</div>
+					<div class="modal-consultation-form__input modal-consultation-form__input--phone">
+						<input type="tel" class="input" id="phone" name="phone" placeholder="Телефон">
+					</div>
+					<div class="modal-consultation-form__textarea">
+						<textarea class="textarea-custom" placeholder="Напишіть своє повідомлення"></textarea>
+					</div>
+
+					<div class="checkbox-box">
+						<span>Тема вашого звернення:</span>
+						<div class="cta-form__checkbox">
+							<input type="checkbox" id="modal-arttherapy" name="modal-arttherapy" value="Art Therapy">
+
+							<label for="modal-arttherapy">Арттерапія</label>
+							<input type="checkbox" id="modal-metaphor_cards" name="modal-metaphor_cards"
+								value="Metaphorical Associative Cards">
+							<label for="modal-metaphor_cards">Метафоричні асоціативні картки</label>
+							<input type="checkbox" id="modal-order_painting" name="modal-order_painting"
+								value="Order Painting">
+							<label for="modal-order_painting">Замовлення картини</label>
+						</div>
+					</div>
+					<div class="modal-consultation__buttons">
+						<button class="btn btn-submit">Відправити</button>
+					</div>
+				</form>
+			</div>
+			<div class="modal-consultation__img">
+				<div class="modal-consultation__image-holder">
+					<img class="modal-consultation-img-desktop" src="img/126.webp" alt="image">
+					<img class="modal-consultation-img-mobile" src="img/127.webp" alt="image">
+				</div>
+			</div>
+			<a class="btn btn-back" data-fancybox-close href=""></a>
+		</div>
+	</div>
+
+	<div style="display: none;" id="modal-buy-common-1" class="modal-buy-common">
+		<div class="modal-look">
+			<div class="modal-look__slider modal-look-slick">
+				<div class="modal-look__slide">
+					<div class="modal-look__image-holder zoom">
+						<!-- <img src="img/modal-look-big-img-1.webp" width="642" height="785" alt="image"> -->
+						<picture>
+							<source media="(min-width: 1200px)" width="642" height="785" srcset="img/modal-look-big-img-1.webp"
+								type="image/webp">
+							<img src="img/modal-look-small-img-1.webp" alt="image">
+						</picture>
+						<div class="badge-box">
+							НОВА РОБОТА
+						</div>
+					</div>
+				</div>
+				<div class="modal-look__slide">
+					<div class="modal-look__image-holder zoom">
+						<picture>
+							<source media="(min-width: 1200px)" width="642" height="785" srcset="img/modal-look-big-img-1.webp"
+								type="image/webp">
+							<img src="img/modal-look-small-img-1.webp" alt="image">
+						</picture>
+						<!-- <img src="img/modal-look-big-img-2.webp" width="642" height="785" alt="image"> -->
+						<div class="badge-box">
+							НОВА РОБОТА
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="modal-look__content">
+				<h3>«Живий рід»</h3>
+				<p>Репродукція метафоричної карти «Живород» «Живий рід»</p>
+
+				<div class="options-box">
+					<div class="options-box__item options-box__item--size">35x25</div>
+					<div class="options-box__item options-box__item--dye">Акрил</div>
+					<div class="options-box__item options-box__item--dye">Лак</div>
+				</div>
+
+				<div class="price-box">
+					<div class="price-box__old-price">200$</div>
+					<div class="price-box__base-price">175$</div>
+				</div>
+
+				<div class="modal-look__footer">
+					<p class="modal-look__time">Доставка здійснюється протягом 2-5 робочих днів, якщо обрана репродукція
+						вже
+						готова. </p>
+					<p class="modal-look__post">Вартість доставки згідно з <a href="https://novaposhta.ua/basic_tariffs"
+							target="_blank">тарифами “Нова Пошта”</a></p>
+					<a class="btn btn-buy" href="">Купити</a>
+					<div class="contact-box">
+						<div class="contact-box__image-holder">
+							<img src="img/avatar.webp" alt="avatar">
+						</div>
+						<div class="contact-box__text-holder">
+							Якщо у вас є додаткові питання, будь ласка,
+							<a class="js-btn-consultation" href="">зв'яжіться
+								зі мною</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal-buy">
+			<div class="modal-buy__content">
+				<div class="modal-buy__image-holder ">
+					<img src="img/modal-buy-small-img.webp" width="332" height="229" alt="image">
+				</div>
+				<h3>«Живий рід»</h3>
+				<p>Репродукція метафоричної карти «Живород» «Живий рід»</p>
+
+				<div class="options-box">
+					<div class="options-box__item options-box__item--size">35x25</div>
+					<div class="options-box__item options-box__item--dye">Акрил</div>
+					<div class="options-box__item options-box__item--dye">Лак</div>
+				</div>
+
+				<div class="modal-look__footer">
+					<p class="modal-look__time">Доставка здійснюється протягом 2-5 робочих днів, якщо обрана репродукція
+						вже
+						готова. </p>
+					<p class="modal-look__post">Вартість доставки згідно з <a href="https://novaposhta.ua/basic_tariffs"
+							target="_blank">тарифами “Нова Пошта”</a></p>
+					<div class="contact-box">
+						<div class="contact-box__image-holder">
+							<img src="img/avatar.webp" alt="avatar">
+						</div>
+						<div class="contact-box__text-holder">
+							Якщо у вас є додаткові питання, будь ласка,
+							<a class="js-btn-consultation" href="">зв'яжіться зі мною</a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<div class="modal-buy__form">
+				<h2>Оформлення замовлення</h2>
+				<form class="modal-form" action="">
+					<div class="modal-form__input modal-form__input--name">
+						<input type="text" name="name" placeholder="Ваше ім'я">
+					</div>
+					<div class="modal-form__input modal-form__input--phone">
+						<input type="tel" name="phone" placeholder="Телефон">
+					</div>
+					<div class="modal-form__input modal-form__input--email">
+						<input type="mail" name="email" placeholder="Адреса">
+					</div>
+					<button class="btn btn-buy">Замовити</button>
+				</form>
+				<div class="modal-buy__footer">
+					<p>Вартість доставки оплачується окремо та не входить у ціну товару</p>
+					<div class="price-box">
+						<span>Вартість:</span>
+						<div class="price-box__old-price">200$</div>
+						<div class="price-box__base-price">175$</div>
+					</div>
+				</div>
+			</div>
+			<a class="btn btn-back" href=""></a>
+		</div>
+	</div>
+	<div style="display: none;" id="modal-buy-common-2" class="modal-buy-common">
+		<div class="modal-look">
+			<div class="modal-look__slider modal-look-slick">
+				<div class="modal-look__slide">
+					<div class="modal-look__image-holder zoom">
+						<!-- <img src="img/modal-look-big-img-1.webp" width="642" height="785" alt="image"> -->
+						<picture>
+							<source media="(min-width: 1200px)" width="642" height="785" srcset="img/modal-look-big-img-1.webp"
+								type="image/webp">
+							<img src="img/modal-look-small-img-1.webp" alt="image">
+						</picture>
+						<div class="badge-box">
+							НОВА РОБОТА
+						</div>
+					</div>
+				</div>
+				<div class="modal-look__slide">
+					<div class="modal-look__image-holder zoom">
+						<picture>
+							<source media="(min-width: 1200px)" width="642" height="785" srcset="img/modal-look-big-img-2.webp"
+								type="image/webp">
+							<img src="img/modal-look-small-img-2.webp" alt="image">
+						</picture>
+						<!-- <img src="img/modal-look-big-img-2.webp" width="642" height="785" alt="image"> -->
+						<div class="badge-box">
+							НОВА РОБОТА
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="modal-look__content">
+				<h3>test«Живий рід»</h3>
+				<p>Репродукція метафоричної карти «Живород» «Живий рід»</p>
+
+				<div class="options-box">
+					<div class="options-box__item options-box__item--size">35x25</div>
+					<div class="options-box__item options-box__item--dye">Акрил</div>
+					<div class="options-box__item options-box__item--dye">Лак</div>
+				</div>
+
+				<div class="price-box">
+					<div class="price-box__old-price">200$</div>
+					<div class="price-box__base-price">175$</div>
+				</div>
+
+				<div class="modal-look__footer">
+					<p class="modal-look__time">Доставка здійснюється протягом 2-5 робочих днів, якщо обрана репродукція
+						вже
+						готова. </p>
+					<p class="modal-look__post">Вартість доставки згідно з <a href="https://novaposhta.ua/basic_tariffs"
+							target="_blank">тарифами “Нова Пошта”</a></p>
+					<a class="btn btn-buy" href="">Купити</a>
+					<div class="contact-box">
+						<div class="contact-box__image-holder">
+							<img src="img/avatar.webp" alt="avatar">
+						</div>
+						<div class="contact-box__text-holder">
+							Якщо у вас є додаткові питання, будь ласка,
+							<a class="js-btn-consultation" href="">зв'яжіться
+								зі мною</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal-buy">
+			<div class="modal-buy__content">
+				<div class="modal-buy__image-holder ">
+					<img src="img/modal-buy-small-img.webp" width="332" height="229" alt="image">
+				</div>
+				<h3>«Живий рід»</h3>
+				<p>Репродукція метафоричної карти «Живород» «Живий рід»</p>
+
+				<div class="options-box">
+					<div class="options-box__item options-box__item--size">35x25</div>
+					<div class="options-box__item options-box__item--dye">Акрил</div>
+					<div class="options-box__item options-box__item--dye">Лак</div>
+				</div>
+
+				<div class="modal-look__footer">
+					<p class="modal-look__time">Доставка здійснюється протягом 2-5 робочих днів, якщо обрана репродукція
+						вже
+						готова. </p>
+					<p class="modal-look__post">Вартість доставки згідно з <a href="https://novaposhta.ua/basic_tariffs"
+							target="_blank">тарифами “Нова Пошта”</a></p>
+					<div class="contact-box">
+						<div class="contact-box__image-holder">
+							<img src="img/avatar.webp" alt="avatar">
+						</div>
+						<div class="contact-box__text-holder">
+							Якщо у вас є додаткові питання, будь ласка,
+							<a class="js-btn-consultation" href="">зв'яжіться зі мною</a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<div class="modal-buy__form">
+				<h2>Оформлення замовлення</h2>
+				<form class="modal-form" action="">
+					<div class="modal-form__input modal-form__input--name">
+						<input type="text" name="name" placeholder="Ваше ім'я">
+					</div>
+					<div class="modal-form__input modal-form__input--phone">
+						<input type="tel" name="phone" placeholder="Телефон">
+					</div>
+					<div class="modal-form__input modal-form__input--email">
+						<input type="mail" name="email" placeholder="Адреса">
+					</div>
+					<button class="btn btn-buy">Замовити</button>
+				</form>
+				<div class="modal-buy__footer">
+					<p>Вартість доставки оплачується окремо та не входить у ціну товару</p>
+					<div class="price-box">
+						<span>Вартість:</span>
+						<div class="price-box__old-price">200$</div>
+						<div class="price-box__base-price">175$</div>
+					</div>
+				</div>
+			</div>
+			<a class="btn btn-back" href=""></a>
+		</div>
+	</div>
+
+
+
+	<script src="./js/jquery-3.6.4.min.js"></script>
+	<script src="./js/jquery.fancybox.min.js"></script>
+	<script src="./js/jquery.zoom.min.js"></script>
+	<script src="./js/slick.min.js"></script>
+	<script src="./js/app.js"></script>
+</body>
+
+</html>
